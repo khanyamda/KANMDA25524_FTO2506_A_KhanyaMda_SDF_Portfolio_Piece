@@ -1,0 +1,134 @@
+
+body {
+    font-family: 'Poppins';font-size: 22px;
+    background-color: #a5a2a2;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.profile-bio {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 29px;
+  background-color: white;
+}
+
+.profile-image {
+display: flex;
+height: auto;
+width: 144px;
+aspect-ratio: 1 / 1;
+border-radius: 24px;
+  
+}
+
+
+.section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2a2a2a;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+
+}
+
+.proficiency-bar {
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 10px;
+  margin: 0.3rem 0 1rem;
+    background-color: white;
+}
+
+.proficiency-fill {
+  height: 100%;
+  background-color: #4A8B70;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e0e0e0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.education .tools {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tools-icons img {
+  height: 40px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.proficiency-skills {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.proficiency-skills > div {
+  flex: 1;
+  min-width: 280px;
+}
+
+.projects {
+  display: flex;
+  margin: 20px;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.projects .card {
+  flex: 1 1 calc(45% - 1rem);
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.badge {
+  background-color: #D76239;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.footer {
+    background-color: #D76239;
+    border-radius: 29px;
+    border-style: hidden;
+    color: white;
+}
