@@ -122,3 +122,11 @@ portfolio/
 - **Phone**: 0647066394
 - **LinkedIn**: [linkedin.com/in/khanya-mda](https://linkedin.com/in/khanya-mda)
 - **GitHub**: [github.com/khanyamda](https://github.com/khanyamda)
+
+## Presentation
+
+https://www.loom.com/share/dc353f14f0934eca9e26965980629e2c?sid=55d6c9e0-f8e8-4124-8316-acd6e37ceaf7
+https://www.loom.com/share/7f39b544d5e74747af7ef79777b25edc?sid=32164955-30a6-4326-87c4-61bf95e4165f
+https://www.loom.com/share/30d771708cd849318adde9d89003c1ce?sid=5c254b6e-24f3-4d85-a816-6a4ae9add9f4
+
+There are three links provided due to the time limits on Loom
