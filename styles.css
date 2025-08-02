@@ -29,6 +29,7 @@
             display: flex;
             align-items: center;
             gap: 24px;
+            width: auto;
         }
 
         .profile-image {
@@ -645,7 +646,7 @@
             }
 
             /* Experience Mobile */
-            
+
             .experience-card {
                 padding: 16px;
             }

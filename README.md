@@ -1,121 +1,124 @@
-# 💼 SDFPP Resume Project
+# Khanya Mda - Portfolio Website
 
-Welcome to your first major **portfolio project** in the Software Development Program is a resume project (SDFPP). In this challenge, using a [Figma design file](https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1) as reference, you’ll create your very own online resume — a personal website that shows off your skills, experience, and code style using **HTML and CSS**.
+A modern, responsive portfolio website showcasing my skills, projects, education, and professional experience as a software development student.
 
-This is not just practice — this is something you can proudly include in your portfolio and share with future employers!
+## 🌟 Features
 
----
+- **Responsive Design**: Fully responsive layout that works seamlessly across desktop and mobile devices
+- **Clean UI**: Modern, professional design with a clean color palette
+- **Interactive Elements**: Progress bars for skill proficiency levels
+- **Project Showcase**: Grid layout displaying featured projects with detailed descriptions
+- **Professional Sections**: Comprehensive sections for education, experience, skills, and tools
+- **Contact Information**: Easy-to-find contact details and social media links
 
-## 📌 Project Overview
+## 🎨 Design Highlights
 
-**Project Name:** Resume Project  
-**Difficulty:** Beginner–Intermediate  
-**Goal:** Replicate a Figma design of a resume site as accurately as possible using HTML and CSS  
-**Tools Required:** HTML5, CSS3, Git, GitHub  
-**Deployment:** Not required — site must run locally in browser  
-**Submission Includes:**
-- A link to your GitHub repo
-- A screen recording of your presentation (5–10 minutes)
-- A complete README (you’re reading it!)
+- **Color Scheme**: Professional green (#2E6E5B) and red (#D9534F) accents on a clean white background
+- **Typography**: Inter font family for excellent readability
+- **Visual Hierarchy**: Clear section organization with consistent spacing and typography
+- **Card-based Layout**: Modern card design for projects, education, and experience sections
+- **Highlighted Content**: Special styling for featured/most recent items
 
- 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
+## 📱 Responsive Features
 
----
+- **Mobile-First Approach**: Optimized for mobile devices with breakpoint at 640px
+- **Flexible Grid Systems**: Adaptive layouts that stack appropriately on smaller screens
+- **Touch-Friendly**: Proper spacing and sizing for mobile interaction
+- **Readable Typography**: Font sizes and line heights optimized for different screen sizes
 
-## 🧠 What You'll Build
+## 🛠️ Technologies Used
 
-You will build a fully responsive, Figma-matching resume site that includes the following sections:
+- **HTML5**: Semantic markup structure
+- **CSS3**: Modern styling with Flexbox and Grid layouts
+- **Google Fonts**: Inter font family integration
+- **Responsive Design**: CSS media queries for mobile optimization
 
-- Profile & Summary
-- Proficiency Bars
-- Skills Tags
-- Projects Grid
-- Education & Work History
-- Tools Section
-- Contact Footer
+## 📂 Project Structure
 
----
+```
+portfolio/
+├── index.html          # Main HTML file
+├── styles.css          # Main stylesheet
+├── profile-image.jpg   # Profile photo
+├── logoFigma.png      # Figma logo
+├── html-logo.png      # HTML logo
+├── css-logo.png       # CSS logo
+├── tailwind-logo.png  # Tailwind CSS logo
+├── icons8-git.png     # Git icon
+├── icons8-github.png  # GitHub icon
+├── icons8-google.png  # Google icon
+├── icons8-microsoft.png # Microsoft icon
+├── icons8-visual-studio.png # VS Code icon
+└── icons8-linkedin.png # LinkedIn icon
+```
 
-## 🧪 How You’ll Be Marked
 
-Your project will be assessed using **two components**:
+## 🎯 Sections Overview
 
-### ✅ 1. Code & Layout Marking 
-Each section of your resume site is scored based on:
-- Use of semantic HTML and correct structure
-- Accurate styling, spacing, typography, and colour matching the Figma
-- Pixel accuracy for layout and alignment
-- Responsive layout on mobile screens
-- Clean and well-structured code
-- Functional and visually polished components
-- Accessibility (e.g., alt text for images and icons)
+### Profile Section
+- Professional headshot
+- Name and bio
+- Clean, centered layout on mobile
 
-> A full breakdown of the scoring rubric is available on your Dashboard. Each feature is mapped to a clear user story and assigned a difficulty rating. Some features offer bonus points for pixel-perfection ✨
+### Skills & Proficiency
+- Visual progress bars showing skill levels
+- Skill tags with modern styling
+- Side-by-side layout on desktop, stacked on mobile
 
-### 🎙️ 2. Recorded Presentation 
-You must record a **5–10 minute** screen presentation of your project using Loom, OBS, or any screen recorder.
+### Projects
+- Grid layout showcasing 4 featured projects
+- Highlighted "favorite" project with special styling
+- Detailed project descriptions with technologies and responsibilities
 
-You will be scored on:
-- How well you explain your code and decisions
-- Understanding and communication of the project brief
-- Visual walkthrough of your site and responsiveness
-- Presentation skills (confidence, clarity, visual aids)
+### Education
+- Timeline of educational background
+- "Most Recent" badge for current studies
+- Detailed course descriptions and achievements
 
-📎 [View the Presentation Template Here](https://github.com/CodeSpace-Academy/SDFPP-2025/blob/main/project%20guide/presentation_template.md)
+### Tools
+- Categorized tool icons (Design & Software)
+- Visual representation of technical toolkit
+- Grid layout for easy scanning
 
----
+### Experience
+- Professional work history
+- Detailed responsibility descriptions
+- Highlighted most recent position
 
-## ✅ Submission Requirements
+### Contact
+- Call-to-action footer
+- Multiple contact methods
+- Social media links
 
-To pass this project, you must submit the following:
+## 🎨 Customization
 
-| Task | Required |
-|------|----------|
-| All required sections built | ✅ |
-| Semantic, readable HTML | ✅ |
-| Well-organised, responsive CSS | ✅ |
-| GitHub repo with clean commit history | ✅ |
-| README file with project info | ✅ |
-| 5–10 minute video presentation | ✅ |
+### Colors
+- Primary: `#2E6E5B` (Green)
+- Accent: `#D9534F` (Red)
+- Background: `#f5f5f5` (Light Gray)
+- Text: `#000` (Black) and `#4A4A4A` (Gray)
 
----
+### Fonts
+- Primary: Inter (Google Fonts)
+- Fallback: sans-serif
 
-## 🧰 Project Setup Instructions
+### Layout
+- Max width: 1200px
+- Grid systems: CSS Grid and Flexbox
+- Mobile breakpoint: 640px
 
-1. Clone your starter project folder (or create a new repo)
-2. Build your site using HTML and CSS
-3. Test it on different screen sizes
-4. Use Git to track your progress with frequent commits
-5. Record your presentation walkthrough
-6. Submit your GitHub link + recording link via the LMS
+## 📱 Mobile Optimization
 
----
+- Stacked sections for better mobile navigation
+- Adjusted font sizes and spacing
+- Single-column project layout
+- Simplified tool grid (3 columns)
+- Compressed contact information
 
-## 🎯 Extra Credit (Bonus Points)
 
-You can earn bonus marks for:
-- A **pixel-perfect build** that is accurate within 10px of the Figma
-- Thoughtful use of layout tools (Grid, Flexbox)
-- Polished hover states and accessibility improvements
-- High-quality code that’s modular and scalable
+## 📧 Contact
 
----
-
-## 📩 Submit Your Project
-
-- ✅ Make sure the naming convention of your repo is correct
-- ✅ Include this README file in your repo  
-- ✅ Add your 5–10 min presentation video link to Google Drive (or similar) and share it with your coach 
-- ✅ Paste your video link in your README 
-- ✅ Push your project to your SDFPP GitHub repo
-- ✅ Submit your SDFPP GitHub repo link to the LMS
-
----
-
-## 🙌 Good Luck!
-
-Take your time. Follow the walkthrough. Ask for help if you need it.
-
-You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
-
-**You’ve got this. Let’s go! 🚀**
+- **Email**: khanyamda@gmail.com
+- **Phone**: 0647066394
+- **LinkedIn**: [linkedin.com/in/khanya-mda](https://linkedin.com/in/khanya-mda)
+- **GitHub**: [github.com/khanyamda](https://github.com/khanyamda)
